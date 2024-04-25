@@ -6,7 +6,8 @@
 }
 
 body {
-    background: #39297b;
+    background: linear-gradient(to bottom, #39297b, #573cbf, #6d5dad);
+    height: 100vh;
     color: #fff;
 }
 
@@ -88,6 +89,7 @@ form button {
 @media only screen and (max-width: 600px) {
     #seach-result {
         grid-template-columns: 1fr;
+        grid-gap: 0;
     }
 
     form {
@@ -98,6 +100,7 @@ form button {
 @media only screen and (max-width: 768px) {
     #seach-result {
         grid-template-columns: 1fr;
+        grid-gap: 0;
     }
 
     form {
