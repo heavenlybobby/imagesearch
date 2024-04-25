@@ -84,3 +84,25 @@ form button {
     border-radius: 5px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    #seach-result {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #seach-result {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #seach-result {
+        grid-template-columns: 1fr 1fr;
+    }
+}
