@@ -11,7 +11,7 @@ let page = 1;
 
 async function seachImages() {
     keyword = seachBox.value;
-    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=12`;
+    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${keyword}&client_id=${accessKey}&per_page=100`;
 
     const response = await fetch(url);
     const data = await response.json();
